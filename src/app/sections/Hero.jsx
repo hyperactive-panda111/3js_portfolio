@@ -10,6 +10,10 @@ import { Leva, useControls } from 'leva';
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "@/constants";
 import ReactLogo from "../components/ReactLogo";
+import Cube from "../components/Cube";
+import Ring from '../components/Ring';
+import HeroCamera from "../components/HeroCamera";
+import Button from "../components/Button";
 
 const Hero = () => {
 
@@ -33,20 +37,30 @@ const Hero = () => {
             <Canvas className="w-full h-full">
                 <Suspense fallback={<CanvasLoader />}>
                     <PerspectiveCamera makeDefault position={[0,0,30]} />
-                    <HackerRoom 
-                        position={sizes.deskPosition}
-                        rotation={[0, -Math.PI, 0]}
-                        scale={sizes.deskScale} 
-                    />
+                    <HeroCamera isMobile={isMobile}>
+                        <HackerRoom 
+                            position={sizes.deskPosition}
+                            rotation={[0, -Math.PI, 0]}
+                            scale={sizes.deskScale} 
+                        />
+                    </HeroCamera>
 
                     <group>
                         <Target position={sizes.targetPosition} />
                         <ReactLogo position={sizes.reactLogoPosition} />
+                        <Cube position={sizes.cubePosition} />
+                        <Ring position={sizes.ringPosition} />
                     </group>
                     <ambientLight intensity={1} />
                     <directionalLight position={[10, 10, 10]} intensity={0.5} />
                 </Suspense>
             </Canvas>
+        </div>
+
+        <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
+            <a href="#contact" className="w-fit">
+                <Button />
+            </a>
         </div>
     </section>
   )
