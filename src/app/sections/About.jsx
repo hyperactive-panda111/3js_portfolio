@@ -31,7 +31,7 @@ const About = () => {
               className='w-full sm:h-[276px] h-fit object-contain'
             />
             <div>
-              <p className='grid-headtext'>Hi, I'm Yaw</p>
+              <p className='grid-headtext'>Hi, I am Yaw</p>
               <p className='grid-subtext'>
                 With 1 year of experience, I am honing my skills in both the
                 frontend and backend engineering.
@@ -74,7 +74,7 @@ const About = () => {
                 I work remotely across most timezones!
               </p>
               <p className='grid-subtext'>
-                I'm based in Ghana, with remote work available.
+                I am based in Ghana, with remote work available.
               </p>
               <Button
                 name={'Contact Me'}
