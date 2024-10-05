@@ -1,3 +1,4 @@
+'use client';
 
 import Navbar from '@/app/sections/Navbar';
 import Hero from '@/app/sections/Hero';
