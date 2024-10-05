@@ -1,4 +1,8 @@
+'use client';
+
 import React from 'react'
+import Globe from 'react-globe.gl'
+import Button from '../components/Button';
 
 const About = () => {
   return (
@@ -30,12 +34,25 @@ const About = () => {
             <div className='col-span-1 xl:row-span-4'>
                 <div className='grid-container'>
                     <div className='rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center'>
+                        <Globe 
+                          height={326}
+                          width={326}
+                          backgroundColor='rgba(0,0,0,0)'
+                          backgroundImageOpacity={0.5}
+                          showAtmosphere
+                          showGraticules
+                          globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+                bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+                        />
                     </div>
-                        <p></p>
-                        <p></p>
-                    
+                    <div> 
+                        <p className='grid-headtext'>I work remotely across most timezones!</p>
+                        <p className='grid-subtext'>I'm based in Ghana, with remote work available.</p>
+                        <Button name={'Contact Me'} isBeam containerClass={'w-full mt-10'} />
+                    </div>         
                 </div>
             </div>
+            <div>
         </div>
         
     </section>
