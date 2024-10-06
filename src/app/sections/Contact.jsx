@@ -58,7 +58,7 @@ const Contact = () => {
                 <h3 className="head-text">Contact Me</h3>
                 <p className="text-lg text-white-600 mt-3">
                     Whether you are looking to build a new website, improve your existing platform, 
-                    or bring a unique project to life, I'm here to help.
+                    or bring a unique project to life, I am here to help.
                 </p>
 
                 <form 
