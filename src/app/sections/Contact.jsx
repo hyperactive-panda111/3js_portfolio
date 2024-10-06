@@ -1,4 +1,7 @@
-import { useRef, useState } from "react"
+'use client';
+
+import { useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const formRef = useRef();
@@ -14,9 +17,35 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    try {
+       await emailjs.send('service_6ll1j5l', 'template_egbwi9z',
+        {
+          from_name: form.name,
+          to_name: 'Yaw',
+          from_email: form.email,
+          to_email: 'amomensah300@gmail.com',
+          message: form.message,
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+      );
+
+      setLoading(false);
+      
+      alert('Your message has been sent!');
+
+      setForm({
+        name: '',
+        email: '',
+        message: '',
+      })
+      
+    } catch (error) {
+      setLoading(false);
+      console.error(error);
+    }
   };
 
   return (
