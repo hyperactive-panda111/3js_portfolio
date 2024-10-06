@@ -3,6 +3,7 @@
 import Navbar from '@/app/sections/Navbar';
 import Hero from '@/app/sections/Hero';
 import About from '@/app/sections/About';
+import Projects from '@/app/sections/Projects';
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
           <Navbar />
           <Hero />
           <About />
+          <Projects />
       </main>
     )
   }
