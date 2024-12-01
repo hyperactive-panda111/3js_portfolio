@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg2"
+    fill-rule="evenodd"
+    xml:space="preserve"
+    viewBox="0 0 20657 19952.407"
+    version="1.1"
+  >
+ <defs
+      id="defs4"
+    ><linearGradient
+        id="linearGradient3781"
+      ><stop
+          id="stop3783"
+          stop-color="#0f0"
+          offset="0"
+      /><stop
+          id="stop3785"
+          stop-color="#008000"
+          offset="1"
+      /></linearGradient
+    >
+  <style
+        id="style6"
+        type="text/css"
+      >
+    .fil0 {fill:#007C00}
+    .fil2 {fill:#013300}
+    .fil3 {fill:#033303}
+    .fil1 {fill:#007C00;fill-rule:nonzero}
+    .fil4 {fill:url(#id0);fill-rule:nonzero}
+  </style
+    >
+  <linearGradient
+        id="id0"
+        y2="5674.1"
+        gradientUnits="userSpaceOnUse"
+        x2="20874"
+        y1="15314"
+        x1="20874"
+      >
+   <stop
+          id="stop9"
+          stop-color="#030"
+          offset="0"
+      /><stop
+          id="stop3779"
+          stop-color="#00b200"
+          offset=".5"
+      />
+   <stop
+          id="stop11"
+          stop-color="#030"
+          offset="1"
+      />
+  </linearGradient
+    >
+ <radialGradient
+        id="radialGradient3809"
+        xlink:href="#linearGradient3781"
+        gradientUnits="userSpaceOnUse"
+        cy="5466.7"
+        cx="14842"
+        gradientTransform="matrix(-2.0062 0 0 -3.9335 44619 22089)"
+        r="5041.5"
+    /><radialGradient
+        id="radialGradient3811"
+        xlink:href="#linearGradient3781"
+        gradientUnits="userSpaceOnUse"
+        cy="5215.9"
+        cx="14842"
+        gradientTransform="matrix(3.3165e-7 3.735 -1.9776 1.756e-7 25157 -54861)"
+        r="5287.5"
+    /><linearGradient
+        id="linearGradient3813"
+        y2="4853.8"
+        xlink:href="#id0"
+        gradientUnits="userSpaceOnUse"
+        x2="20874"
+        y1="16070"
+        x1="20874"
+    /><linearGradient
+        id="linearGradient3815"
+        y2="19.913"
+        gradientUnits="userSpaceOnUse"
+        x2="526.18"
+        y1="723.89"
+        x1="526.15"
+      ><stop
+          id="stop3795"
+          stop-color="#fff"
+          stop-opacity=".5"
+          offset="0"
+      /><stop
+          id="stop3797"
+          stop-color="#fff"
+          stop-opacity=".8"
+          offset="1"
+      /></linearGradient
+    ></defs
+  >
+<g
+      id="g3801"
+      transform="translate(-4767 -519.67)"
+    ><polygon
+        id="polygon15"
+        class="fil0"
+        points="10831 15859 10831 12287 4767 11990 4767 9064 10804 8769 10804 5170 4772 6143 4769 3212 14850 562 14850 20430 4798 17811 4798 14905"
+        fill="url(#radialGradient3809)"
+    /><path
+        id="path17"
+        d="m14850 562c1171 302 2275 586 3316 855 980 253 1910 492 2792 720 981 253 1736 644 2285 1165 531 503 957 1131 1285 1883 322 739 546 1556 686 2463 139 899 210 1836 210 2820 0 1545-104 2753-311 3633-209 892-502 1671-890 2341-399 687-836 1195-1321 1517-686 457-1338 765-1943 919-883 224-1815 461-2797 711-1042 265-2146 545-3313 842v-19868zm4328 5112v9640c312-43 620-86 921-127 748-103 1261-291 1558-565 292-270 514-699 675-1287 160-585 238-1509 238-2786-1-1684-177-2852-536-3518-368-683-997-1093-1918-1224-307-43-619-88-937-133z"
+        fill-rule="nonzero"
+        fill="url(#radialGradient3811)"
+        class="fil1"
+    /><polygon
+        id="polygon19"
+        class="fil2"
+        points="10804 5170 4772 6143 10804 6700"
+        fill="#030"
+    /><polygon
+        id="polygon21"
+        class="fil3"
+        points="10831 15859 4798 14905 10831 14356"
+        fill="#030"
+    /><path
+        id="path23"
+        d="m19178 5674v9640c312-43 620-86 921-127 748-103 1261-291 1558-565 292-270 514-699 675-1287 160-585 238-1509 238-2786-1-1684-177-2852-536-3518-368-683-997-1093-1918-1224-307-43-619-88-937-133z"
+        fill-rule="nonzero"
+        fill="url(#linearGradient3813)"
+        class="fil4"
+    /><path
+        id="path3791"
+        d="m526.18 19.913-0.0354 703.98"
+        transform="matrix(28.222 0 0 28.222 0 -.00013920)"
+        stroke="url(#linearGradient3815)"
+        stroke-width="3"
+        fill="none"
+    /></g
+  ><metadata
+    ><rdf:RDF
+      ><cc:Work
+        ><dc:format
+          >image/svg+xml</dc:format
+        ><dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        /><cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        /><dc:publisher
+          ><cc:Agent
+              rdf:about="http://openclipart.org/"
+            ><dc:title
+              >Openclipart</dc:title
+            ></cc:Agent
+          ></dc:publisher
+        ><dc:title
+          >3D</dc:title
+        ><dc:date
+          >2013-07-20T16:42:55</dc:date
+        ><dc:description
+          >3D in 3D.</dc:description
+        ><dc:source
+          >https://openclipart.org/detail/181019/3d-by-gustavorezende-181019</dc:source
+        ><dc:creator
+          ><cc:Agent
+            ><dc:title
+              >gustavorezende</dc:title
+            ></cc:Agent
+          ></dc:creator
+        ><dc:subject
+          ><rdf:Bag
+            ><rdf:li
+              >3d</rdf:li
+            ><rdf:li
+              >block</rdf:li
+            ><rdf:li
+              >letters</rdf:li
+            ><rdf:li
+              >logo</rdf:li
+            ><rdf:li
+              >tridimensional</rdf:li
+            ></rdf:Bag
+          ></dc:subject
+        ></cc:Work
+      ><cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        ><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        /><cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        /></cc:License
+      ></rdf:RDF
+    ></metadata
+  ></svg
+>
