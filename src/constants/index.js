@@ -63,7 +63,7 @@ export const navLinks = [
       subdesc:
         'Built with Next.js, TypeScript, Tailwind CSS, and Stripe, the project integrates Unsplash and Uploadthing for seamless image management and offers a user-friendly, responsive design experience.',
       href: 'https://canva-clone-sigma.vercel.app/',
-      texture: '/textures/project/project1.mp4',
+      texture: '/textures/project/project9.mp4',
       logo: '/assets/graphic-pro.svg',
       logoStyle: {
         backgroundColor: '#2A1816',
